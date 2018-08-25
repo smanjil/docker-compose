@@ -4,7 +4,7 @@ from flask import Flask, request
 from flask_cors import CORS, cross_origin
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = '/home/ano/Documents/vue3/real-world-vue/api/'
+UPLOAD_FOLDER = '/code/'
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
