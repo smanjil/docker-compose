@@ -73,7 +73,7 @@
             formData.append('file', this.fpath);
             console.log(formData);
 
-            this.axios.post('http://127.0.0.1:5000/api/post',
+            this.axios.post('http://34.215.86.75:5000/api/post',
               formData,
               {
                 headers: {
