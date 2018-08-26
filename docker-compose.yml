@@ -15,11 +15,11 @@ services:
     db:
         image: mysql:5.7
         ports:
-            - "32000:3306"
+            - "3306:3306"
         environment:
             MYSQL_ROOT_PASSWORD: "root"
             MYSQL_DATABASE: testdb
             MYSQL_USER: root
             MYSQL_PASSWORD: "root"
         volumes:
-            - ./db:/docker-entrypoint-initdb.d/:ro
+            - /var/lib/mysql
