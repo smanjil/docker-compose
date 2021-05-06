@@ -10,7 +10,7 @@ cryptography==2.3.1
 curtsies==0.3.0
 docutils==0.14
 Flask==1.0.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 greenlet==0.4.14
 idna==2.7
 itsdangerous==0.24
